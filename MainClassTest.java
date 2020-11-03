@@ -8,20 +8,20 @@ public class MainClassTest {
     public void testGetLocalNumber()
     {
         int a = mainClass.giveLocalNumber();
-        Assert.assertTrue("Number is not 14, now number = " + a, 14 == a );
+        Assert.assertTrue("The number is not 14, now the number = " + a, 14 == a );
     }
 
     @Test
     public void testGetClassNumber()
     {
         int a = mainClass.getClassNumber();
-        Assert.assertTrue("not",a > 45);
+        Assert.assertTrue("The number isn't bigger than 45, now the number = " + a,a > 45);
     }
 
     @Test
     public void testGetClassString()
     {
         String a = mainClass.getClass_string();
-        Assert.assertTrue("meow", a.contains("hello") || a.contains("Hello")) ;
+        Assert.assertTrue("the string " + a + " doesn't contain the substring hello or Hello", a.contains("hello") || a.contains("Hello")) ;
     }
 }
