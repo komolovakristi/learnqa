@@ -1,0 +1,5 @@
+ноя 07, 2020 3:45:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+First test run
+
+Process finished with exit code 0
